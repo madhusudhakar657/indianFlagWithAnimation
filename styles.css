@@ -35,7 +35,7 @@
   .main {
     background-color: rgb(182, 75, 75);
     border: solid 2px grey;
-    width: 800px;
+    width: 80vw;
     height: 450px;
     animation: wave 3s ease-in-out infinite alternate;
 }
