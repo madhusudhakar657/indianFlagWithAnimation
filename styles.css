@@ -1,0 +1,284 @@
+
+.body{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.firstLayer{
+    height: 150px;
+    width: 100%;
+    border-bottom: 2px solid gray;
+    background-color: orangered;
+    
+}
+
+
+  .chakra {
+    width: 120px;
+    height: 120px;
+    border: 2px solid navy;
+    border-radius: 50%;
+    position: relative;
+    animation: spin 3s linear infinite;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .main {
+    background-color: rgb(182, 75, 75);
+    border: solid 2px grey;
+    width: 800px;
+    height: 450px;
+    animation: wave 3s ease-in-out infinite alternate;
+}
+
+
+
+
+
+
+  
+  .chakra .spoke:nth-child(1) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(15deg);
+  }
+  .chakra .spoke:nth-child(2) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(30deg);
+  }
+  .chakra .spoke:nth-child(3) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(45deg);
+  }
+  .chakra .spoke:nth-child(4) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(60deg);
+  }
+  .chakra .spoke:nth-child(5) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(75deg);
+  }
+  .chakra .spoke:nth-child(6) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(90deg);
+  }
+  .chakra .spoke:nth-child(7) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(105deg);
+  }
+  .chakra .spoke:nth-child(8) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(120deg);
+  }
+  .chakra .spoke:nth-child(9) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(135deg);
+  }
+  .chakra .spoke:nth-child(10) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(150deg);
+  }
+  .chakra .spoke:nth-child(11) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(165deg);
+  }
+  .chakra .spoke:nth-child(12) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(180deg);
+  }
+  .chakra .spoke:nth-child(13) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(195deg);
+  }
+  .chakra .spoke:nth-child(14) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(210deg);
+  }
+  .chakra .spoke:nth-child(15) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(225deg);
+  }
+  .chakra .spoke:nth-child(16) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(240deg);
+  }
+  .chakra .spoke:nth-child(17) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(255deg);
+  }
+  .chakra .spoke:nth-child(18) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(270deg);
+  }
+  .chakra .spoke:nth-child(19) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(285deg);
+  }
+  .chakra .spoke:nth-child(20) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(300deg);
+  }
+  .chakra .spoke:nth-child(21) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(315deg);
+  }
+  .chakra .spoke:nth-child(22) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(330deg);
+  }
+  .chakra .spoke:nth-child(23) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(345deg);
+  }
+  .chakra .spoke:nth-child(24) {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    border-radius: 0px 1px 0px 1px;
+    background-color: navy;
+    left: 49%;
+    transform-origin: bottom;
+    transform: rotate(360deg);
+  }
+  
+  
+.middleLayer{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    height: 150px;
+    width: 100%;
+   
+    background-color: white;
+}
+.lastLayer{
+    height: 150px;
+    width: 100%;
+    background-color: green;
+    
+}
